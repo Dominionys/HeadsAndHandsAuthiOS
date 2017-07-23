@@ -40,6 +40,7 @@
 		B465BE721F25342F0095D246 /* StrategyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BE711F25342F0095D246 /* StrategyWeather.swift */; };
 		B465BE741F2538A00095D246 /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BE731F2538A00095D246 /* AlertAction.swift */; };
 		B465BE761F2538B70095D246 /* AlertTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BE751F2538B70095D246 /* AlertTitle.swift */; };
+		B465BE781F253C3F0095D246 /* AuthInputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BE771F253C3F0095D246 /* AuthInputNode.swift */; };
 		B48FD7B51F2374A90043C0A3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD7B41F2374A90043C0A3 /* Fonts.swift */; };
 		B48FD7B81F2374BE0043C0A3 /* Fontable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD7B71F2374BE0043C0A3 /* Fontable.swift */; };
 		B48FD7BA1F23750D0043C0A3 /* StringAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD7B91F23750D0043C0A3 /* StringAttributes.swift */; };
@@ -118,6 +119,7 @@
 		B465BE711F25342F0095D246 /* StrategyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyWeather.swift; sourceTree = "<group>"; };
 		B465BE731F2538A00095D246 /* AlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
 		B465BE751F2538B70095D246 /* AlertTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTitle.swift; sourceTree = "<group>"; };
+		B465BE771F253C3F0095D246 /* AuthInputNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthInputNode.swift; sourceTree = "<group>"; };
 		B48FD7B41F2374A90043C0A3 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		B48FD7B71F2374BE0043C0A3 /* Fontable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fontable.swift; sourceTree = "<group>"; };
 		B48FD7B91F23750D0043C0A3 /* StringAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAttributes.swift; sourceTree = "<group>"; };
@@ -394,6 +396,7 @@
 				B45BDC3A1F210612004F1D53 /* AuthViewController.swift */,
 				B45BDC3C1F21061D004F1D53 /* AuthViewModel.swift */,
 				B45BDC3E1F210629004F1D53 /* AuthNode.swift */,
+				B465BE771F253C3F0095D246 /* AuthInputNode.swift */,
 			);
 			path = "3. Auth";
 			sourceTree = "<group>";
@@ -766,6 +769,7 @@
 				B45BDC0E1F20E53D004F1D53 /* Colorable.swift in Sources */,
 				B45BDC2B1F20F070004F1D53 /* NavigationViewController.swift in Sources */,
 				B48FD7CE1F24D45D0043C0A3 /* ResetPasswordViewModel.swift in Sources */,
+				B465BE781F253C3F0095D246 /* AuthInputNode.swift in Sources */,
 				B45BDC221F20E830004F1D53 /* RxMoyaProvider+DisposeBag.swift in Sources */,
 				B48FD7CA1F24D3690043C0A3 /* ResetPasswordViewController.swift in Sources */,
 				B48FD7B81F2374BE0043C0A3 /* Fontable.swift in Sources */,

@@ -61,7 +61,9 @@ extension Reactive where Base == AuthViewController {
       .throttle(2.0, scheduler: ConcurrentDispatchQueueScheduler(qos: .background))
       .filter({ [weak base] () -> Bool in
         guard let base = base else { return false }
-        return base.node.emailNode.isValid() && base.node.passwordNode.isValid()
+        let isEmailValid = base.node.emailNode.isValid()
+        let isPasswordValid = base.node.passwordNode.isValid()
+        return isEmailValid && isPasswordValid
       })
       .map({ [weak base] () -> (email: String, password: String)? in
         guard let base = base else { return nil }
