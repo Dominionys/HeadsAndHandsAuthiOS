@@ -10,7 +10,6 @@
 		6F67F2C5E0652390531836B4 /* Pods_TestAuthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7E9D795EC9C15D3C0219EA /* Pods_TestAuthTests.framework */; };
 		B45BDBD51F20E1EA004F1D53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BDBD41F20E1EA004F1D53 /* AppDelegate.swift */; };
 		B45BDBDC1F20E1EA004F1D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45BDBDB1F20E1EA004F1D53 /* Assets.xcassets */; };
-		B45BDBDF1F20E1EA004F1D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45BDBDD1F20E1EA004F1D53 /* LaunchScreen.storyboard */; };
 		B45BDBEA1F20E1EB004F1D53 /* TestAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BDBE91F20E1EB004F1D53 /* TestAuthTests.swift */; };
 		B45BDBF51F20E1EB004F1D53 /* TestAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BDBF41F20E1EB004F1D53 /* TestAuthUITests.swift */; };
 		B45BDC0B1F20E483004F1D53 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BDC0A1F20E483004F1D53 /* Routing.swift */; };
@@ -52,6 +51,7 @@
 		B48FD7CA1F24D3690043C0A3 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD7C91F24D3690043C0A3 /* ResetPasswordViewController.swift */; };
 		B48FD7CC1F24D41C0043C0A3 /* ResetPasswordNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD7CB1F24D41C0043C0A3 /* ResetPasswordNode.swift */; };
 		B48FD7CE1F24D45D0043C0A3 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD7CD1F24D45D0043C0A3 /* ResetPasswordViewModel.swift */; };
+		B4D4FE061F25922000DDDF66 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4D4FE051F25922000DDDF66 /* Launch Screen.storyboard */; };
 		E4B724F9AA500F2DF3DC13D6 /* Pods_TestAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC76E40EED95CA32BF8163E4 /* Pods_TestAuth.framework */; };
 		EFC46CA24B62B6C03FE33167 /* Pods_TestAuthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83B3999888C147B11C1B818 /* Pods_TestAuthUITests.framework */; };
 /* End PBXBuildFile section */
@@ -83,7 +83,6 @@
 		B45BDBD11F20E1EA004F1D53 /* TestAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45BDBD41F20E1EA004F1D53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B45BDBDB1F20E1EA004F1D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B45BDBDE1F20E1EA004F1D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B45BDBE01F20E1EA004F1D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B45BDBE51F20E1EB004F1D53 /* TestAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45BDBE91F20E1EB004F1D53 /* TestAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAuthTests.swift; sourceTree = "<group>"; };
@@ -131,6 +130,7 @@
 		B48FD7C91F24D3690043C0A3 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		B48FD7CB1F24D41C0043C0A3 /* ResetPasswordNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordNode.swift; sourceTree = "<group>"; };
 		B48FD7CD1F24D45D0043C0A3 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
+		B4D4FE051F25922000DDDF66 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CC76E40EED95CA32BF8163E4 /* Pods_TestAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D5E741C8C372DCDA68542E /* Pods-TestAuthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAuthUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestAuthUITests/Pods-TestAuthUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F83B3999888C147B11C1B818 /* Pods_TestAuthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAuthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -233,8 +233,8 @@
 			children = (
 				B45BDC151F20E61D004F1D53 /* Default-568h@2x.png */,
 				B45BDBDB1F20E1EA004F1D53 /* Assets.xcassets */,
-				B45BDBDD1F20E1EA004F1D53 /* LaunchScreen.storyboard */,
 				B45BDBE01F20E1EA004F1D53 /* Info.plist */,
+				B4D4FE051F25922000DDDF66 /* Launch Screen.storyboard */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -599,7 +599,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B45BDBDF1F20E1EA004F1D53 /* LaunchScreen.storyboard in Resources */,
+				B4D4FE061F25922000DDDF66 /* Launch Screen.storyboard in Resources */,
 				B45BDBDC1F20E1EA004F1D53 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -836,17 +836,6 @@
 			targetProxy = B45BDBF11F20E1EB004F1D53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B45BDBDD1F20E1EA004F1D53 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B45BDBDE1F20E1EA004F1D53 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B45BDBF71F20E1EB004F1D53 /* Debug */ = {
